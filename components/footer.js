@@ -41,7 +41,7 @@ const Footer = ({ className = "", lETTERLOGO1, propGap }) => {
         <img className={styles.letterLogo1} alt="" src={lETTERLOGO1} />
         <div className={styles.contactlessEligantInnovativeContainer}>
           <p className={styles.contactless}>Contactless</p>
-          <p className={styles.contactless}>{`Eligant `}</p>
+          <p className={styles.contactless}>Elegant</p>
           <p className={styles.contactless}>Innovative</p>
         </div>
         <div className={styles.copyright}>© 2024 — Copyright</div>
