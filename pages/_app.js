@@ -21,7 +21,8 @@ export default function MyApp(props) {
   return (
     <Fragment>
       <Head>
-        <title>SamparkaJun16</title>
+        <title>Samparka</title>
+        <link rel="shortcut icon" href="/SAMPARKAfavison.png" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
