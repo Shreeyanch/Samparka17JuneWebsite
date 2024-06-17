@@ -34,13 +34,13 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.letterLogo11 {
+/* .letterLogo11 {
   width: 161px;
   position: relative;
   height: 27px;
   object-fit: cover;
   mix-blend-mode: normal;
-}
+} */
 .logo {
   overflow: hidden;
   padding: var(--padding-3xs) var(--padding-0);
@@ -172,6 +172,13 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .letterLogo1 {
+  width: 130px;
+  position: relative;
+  height: 25px;
+  object-fit: fill;
+  mix-blend-mode: normal;
+}
   .menulinks {
     display: none;
   }

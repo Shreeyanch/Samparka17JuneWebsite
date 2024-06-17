@@ -17,10 +17,10 @@
 }
 
 .letterLogo1 {
-  width: 126px;
+  width: 111px;
   position: relative;
-  height: 27px;
-  object-fit: cover;
+  height: 23px;
+  object-fit: fill;
   mix-blend-mode: normal;
 }
 

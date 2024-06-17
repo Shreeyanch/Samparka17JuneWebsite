@@ -112,9 +112,12 @@ import { useState, useCallback } from "react";
 import PortalPopup from "./portal-popup";
 import PropTypes from "prop-types";
 import styles from "./hero-business-card.module.css";
+import { useRouter } from "next/router";
+
 
 const HeroBusinessCard = ({ className = "" }) => {
   const [isVideoPopupOpen, setVideoPopupOpen] = useState(false);
+  const router = useRouter();
 
   const openVideoPopup = useCallback(() => {
     setVideoPopupOpen(true);
@@ -124,9 +127,11 @@ const HeroBusinessCard = ({ className = "" }) => {
     setVideoPopupOpen(false);
   }, []);
 
+
   const onGroupContainerClick = useCallback(() => {
-    // Handle navigation or other actions when clicking Get In Touch
-  }, []);
+    router.push("/get-in-touch");
+  }, [router]);
+
 
   return (
     <>

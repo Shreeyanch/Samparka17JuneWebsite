@@ -102,7 +102,7 @@ const MobileNavbaR = ({ className = "", onClose }) => {
           onClick={onClose}
         />
       </div>
-      <div className={styles.mobilenavbarlogo}>
+      {/* <div className={styles.mobilenavbarlogo}>
         <div className={styles.logo}>
           <img
             className={styles.letterLogo1}
@@ -110,7 +110,7 @@ const MobileNavbaR = ({ className = "", onClose }) => {
             src="/letter-logo-1@2x.png"
           />
         </div>
-      </div>
+      </div> */}
       <div className={styles.menu}>
         <div className={styles.homeParent}>
           <div className={styles.home} onClick={onHomeTextClick}>
