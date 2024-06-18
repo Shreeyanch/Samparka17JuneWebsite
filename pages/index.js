@@ -39,7 +39,7 @@ const Home = () => {
       <RecommendationMobile group7791="/group-779-1@2x.png" />
       <div className={styles.blogCatHeadersParent}>
         <div className={styles.blogCatHeaders}>
-          <div className={styles.discoverOurBlogs}>Discover our blogs</div>
+          <div className={styles.discoverOurBlogs}>Discover our blog</div>
         </div>
         <div className={styles.frameParent}>
           <a className={styles.rectangleParent} onClick={onFrameLinkClick1}>

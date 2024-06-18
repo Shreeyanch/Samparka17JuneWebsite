@@ -287,8 +287,8 @@
     padding: 0 var(--padding-101xl);
     gap: var(--gap-11xl);
     text-align: left;
-    font-size: var(--font-size-base);
-    color: var(--color-gray-600);
+    font-size: var(  --font-size-13xl);
+    color: var(--color-gray-100);
     font-family: var(--font-inter);
   }
   
@@ -330,6 +330,7 @@
   @media (max-width: 576px) {
     .blogCatHeadersParent {
       padding: 0 var(--padding-5xl);
+      font-size: var(  --font-size-base);
     }
   
     .boostYourBusiness {
