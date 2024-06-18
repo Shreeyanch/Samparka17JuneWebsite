@@ -54,8 +54,7 @@
   }
   .description {
     font-weight: 200;
-    font-family: var(--font-poppins);
-    font-size: var(--font-size-smi);
+    font-size: var(--font-size-2xs);
   }
 }
 @media screen and (max-width: 360px) {
