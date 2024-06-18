@@ -15,8 +15,7 @@ const Review = ({ className = "" }) => {
       <div className={styles.directReviewParent}>
         <div className={styles.directReview}>2.Direct review</div>
         <div className={styles.optimizeReviews45}>
-          Optimize reviews 4-5 stars lead to Google reviews, 1-3 stars redirect
-          to a feedback form, saving from negative reviews.
+          Optimize reviews by directly opening review page where customers can provide 1 5 star, according to their experience.
         </div>
         <div className={styles.contactlessSvgrepoCom1}>
           <div className={styles.layer2Parent}>

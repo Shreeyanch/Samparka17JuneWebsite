@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import styles from "./footer.module.css";
 
 const Footer = ({ className = "", lETTERLOGO1, propGap }) => {
+  
   const footerStyle = useMemo(() => {
     return {
       gap: propGap,

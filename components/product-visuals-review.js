@@ -17,14 +17,14 @@ const ProductVisualsReview = ({ className = "" }) => {
         <img className={styles.step1Icon} alt="" src="/step112@2x.png" />
         <img className={styles.step1Icon} alt="" src="/step113@2x.png" />
         <img className={styles.step1Icon} alt="" src="/step114@2x.png" />
-        <img className={styles.step1Icon} alt="" />
+        {/* <img className={styles.step1Icon} alt="" /> */}
         <img className={styles.step1Icon} alt="" src="/step1@2x.png" />
         <img className={styles.step1Icon} alt="" src="/step115@2x.png" />
         <img className={styles.step1Icon} alt="" src="/step116@2x.png" />
         <img className={styles.step1Icon} alt="" src="/step117@2x.png" />
         <img className={styles.step1Icon} alt="" src="/step118@2x.png" />
-        <img className={styles.step1Icon} alt="" />
-        <img className={styles.step1Icon} alt="" src="/step1@2x.png" />
+        {/* <img className={styles.step1Icon} alt="" /> */}
+        {/* <img className={styles.step1Icon} alt="" src="/step1@2x.png" /> */}
       </div>
     </div>
   );

@@ -166,7 +166,7 @@ const ShareYourTravelsForm = ({ className = '' }) => {
     });
 
     const content = await response.json();
-    alert('Your review has been submitted.');
+    alert('Your message has been submitted.');
 
     setName('');
     setPhoneNumber('');

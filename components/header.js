@@ -62,6 +62,7 @@ const Header = ({ className = "", onClose, onHomeTextClick }) => {
       <div className={[styles.navbar, className].join(" ")}>
         <div className={styles.nav}>
           <img
+          onClick={onHomeClick}
             className={styles.letterLogo1}
             alt=""
             src="/letter-logo-1@2x.png"
