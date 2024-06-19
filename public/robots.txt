@@ -2,8 +2,8 @@
 User-agent: *
 Allow: /
 
-# Host
+# Specify the preferred domain with HTTPS
 Host: https://samparka.info
 
-# Sitemaps
+# Specify the location of the sitemap file with HTTPS
 Sitemap: https://samparka.info/sitemap.xml

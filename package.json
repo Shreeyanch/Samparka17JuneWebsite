@@ -27,7 +27,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sitemap": "next-sitemap"
+    "sitemap": "node generate-sitemap.js"
   }
   
 }

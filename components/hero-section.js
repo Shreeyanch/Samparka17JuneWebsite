@@ -56,13 +56,21 @@ const HeroSection = ({ className = "" }) => {
             <img className={styles.vectorIcon} alt="" src="/vector1.svg" />
           </div>
           <div className={styles.title}>
-          Digital NFC Smart Business Cards, Google Review Management, and Loyalty Reward Software in Nepal | Bridging Traditional and Modern Technology
+            Bridging the gap between traditional and the new.
           </div>
+          
+          {/* Digital NFC Smart Business Cards, Google Review Management, and Loyalty Reward Software in Nepal | Bridging Traditional and Modern Technology */}
+          <div className={styles.subtitle1}>
+          Digital NFC Smart Business Cards | Google Review Management | Loyalty Reward Software in Nepal 
+          </div>
+          
           <div className={styles.subtitle}>
             Our products are crafted to elevate your professional image, enhance
             customer feedback, and strengthen client loyalty, all through
             cutting-edge technology and intuitive design.
           </div>
+
+          
           <div className={styles.buttonrow}>
             <button className={styles.button} onClick={onButtonClick}>
               <div className={styles.getInTouch}>Get In Touch</div>
