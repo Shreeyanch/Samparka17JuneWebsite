@@ -56,7 +56,7 @@ const HeroSection = ({ className = "" }) => {
             <img className={styles.vectorIcon} alt="" src="/vector1.svg" />
           </div>
           <div className={styles.title}>
-            Bridging the gap between traditional and the new.
+          Digital NFC Smart Business Cards, Google Review Management, and Loyalty Reward Software in Nepal | Bridging Traditional and Modern Technology
           </div>
           <div className={styles.subtitle}>
             Our products are crafted to elevate your professional image, enhance
@@ -70,7 +70,7 @@ const HeroSection = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <img className={styles.heroimageIcon} alt="" src="/vector@2x.png" />
+      <img className={styles.heroimageIcon} alt="Samparka Nepal Hero Page Image Of Smart Business Card, Review Card and Loyalty SOftware" src="/vector@2x.png" />
     </section>
   );
 };

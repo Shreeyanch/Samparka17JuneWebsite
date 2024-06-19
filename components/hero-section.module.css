@@ -30,6 +30,7 @@
   height: 36px;
 }
 .title {
+  width: auto;
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-29xl);
