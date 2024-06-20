@@ -477,3 +477,48 @@
     display: none;
   }
 }
+
+.videoPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Adjust width as needed */
+  max-width: 800px; /* Maximum width for the popup */
+  max-height: 80%; /* Maximum height for the popup */
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.videoPopupClose {
+  position: fixed;
+  top: 10px; /* Adjust to position vertically */
+  right: 10px; /* Adjust to position horizontally */
+  font-size: 30px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1100; /* Ensure close button is above video */
+}
+
+.videoWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+

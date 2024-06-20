@@ -1,9 +1,21 @@
-import { useCallback } from "react";
+import { useState, useCallback } from "react";
+import PortalPopup from "./portal-popup";
+
 import { useRouter } from "next/router";
 import PropTypes from "prop-types";
 import styles from "./loyalty-hero.module.css";
 
 const LoyaltyHero = ({ className = "" }) => {
+  const [isVideoPopupOpen, setVideoPopupOpen] = useState(false);
+  const openVideoPopup = useCallback(() => {
+    setVideoPopupOpen(true);
+  }, []);
+
+  const closeVideoPopup = useCallback(() => {
+    setVideoPopupOpen(false);
+  }, []);
+
+
   const router = useRouter();
 
   const onGroupContainerClick = useCallback(() => {
@@ -11,6 +23,7 @@ const LoyaltyHero = ({ className = "" }) => {
   }, [router]);
 
   return (
+    <>
     <div className={[styles.loyaltyhero, className].join(" ")}>
       <div className={styles.loyaltyheroheader}>
         <img
@@ -32,17 +45,17 @@ const LoyaltyHero = ({ className = "" }) => {
             <div className={styles.rectangle} />
             <div className={styles.getInTouch}>Get In Touch</div>
           </div>
-          <div className={styles.group1}>
+          <div className={styles.group1} onClick={openVideoPopup}>
             <div className={styles.rectangle1} />
             <div className={styles.watchAVideo}>Watch a video</div>
           </div>
         </div>
-        <div className={styles.mobileCtaButtonLoyalty}>
+        <div className={styles.mobileCtaButtonLoyalty} >
           <div className={styles.group2}>
             <div className={styles.rectangle2} />
-            <div className={styles.startForFree}>Start for free</div>
+            <div className={styles.startForFree}>Get In Touch</div>
           </div>
-          <div className={styles.group3}>
+          <div className={styles.group3} onClick={openVideoPopup}>
             <div className={styles.rectangle3} />
             <div className={styles.watchAVideo1}>Watch a video</div>
           </div>
@@ -82,6 +95,31 @@ const LoyaltyHero = ({ className = "" }) => {
         </div>
       </div>
     </div>
+    {isVideoPopupOpen && (
+      <PortalPopup
+        overlayColor="rgba(0, 0, 0, 0.8)"
+        placement="Centered"
+        onOutsideClick={closeVideoPopup}
+      >
+        <div className={styles.videoPopup}>
+          <button className={styles.videoPopupClose} onClick={closeVideoPopup}>
+            &times;
+          </button>
+          <div className={styles.videoWrapper}>
+            <iframe
+              title="YouTube Video"
+              width="560"  // Adjust width as needed
+              height="315" // Adjust height as needed
+              src="https://www.youtube.com/embed/9-LAMxLL9P8?si=ufYMCr-Puj0SvACn"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </PortalPopup>
+    )}
+    </>
   );
 };
 
