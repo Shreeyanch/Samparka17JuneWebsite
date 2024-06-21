@@ -36,7 +36,7 @@ const Trust = ({ className = "" }) => {
     <div className={[styles.trust, className].join(" ")} data-animate-on-scroll>
       <div className={styles.trusttitle}>
         <div className={styles.trustedByMoreContainer}>
-          <span>{`Trusted by more than a `}</span>
+          <span>{`Trusted by more than `}</span>
           <span className={styles.span}>300</span>
           <span> businesses</span>
         </div>
