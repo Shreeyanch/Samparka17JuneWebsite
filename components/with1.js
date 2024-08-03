@@ -8,7 +8,7 @@ const With1 = ({ className = "" }) => {
       <FrameComponent
         smallBiz="SmallBiz"
         forSmallBusinesses="For Small Businesses"
-        nPR1599mo="NPR 1599/mo"
+        nPR1599mo="NPR 2299/mo"
       />
       <div className={styles.points}>
         <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
@@ -29,6 +29,10 @@ const With1 = ({ className = "" }) => {
       <div className={styles.points}>
         <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
         <div className={styles.cloudBasedMobileRewards}>QR Code Technology</div>
+      </div>
+      <div className={styles.points}>
+        <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
+        <div className={styles.cloudBasedMobileRewards}>NFC Pod Technology</div>
       </div>
       <div className={styles.points}>
         <img className={styles.vectorIcon} alt="" src="/vector3.svg" />

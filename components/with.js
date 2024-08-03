@@ -34,6 +34,10 @@ const With = ({ className = "" }) => {
       </div>
       <div className={styles.points}>
         <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
+        <div className={styles.cloudBasedMobileRewards}>Nfc Pod Technology</div>
+      </div>
+      <div className={styles.points}>
+        <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
         <div className={styles.cloudBasedMobileRewards}>
           DFY Rewards Templates
         </div>

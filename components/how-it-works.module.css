@@ -1,0 +1,160 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.realBusinessesReal {
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  line-height: 57px;
+}
+.trusttitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.createRealLoyaltyAndBoost {
+  flex: 1;
+  position: relative;
+  line-height: 38px;
+  font-weight: 600;
+}
+.trusttitle1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-8xl);
+}
+.samparka,
+.with {
+  font-weight: 300;
+  font-family: var(--font-poppins);
+}
+.samparka {
+  font-weight: 600;
+}
+.loyalty {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.increaseYourProfits {
+  font-weight: 300;
+}
+.withSamparkaLoyaltyContainer {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+}
+.trusttitle2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+}
+.samparka202 {
+  width: 936px;
+  position: relative;
+  height: 435px;
+  object-fit: cover;
+}
+.desktopHeroImage,
+.samparka202Wrapper,
+.trust {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.trust {
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 100px 390px;
+  gap: 35px;
+  opacity: 0;
+  z-index: 5;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-lavender);
+  font-family: var(--font-poppins);
+}
+.trust.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+@media screen and (max-width: 1200px) {
+  .desktopHeroImage {
+    width: auto;
+    align-self: unset;
+    height: 650px;
+    padding-left: var(--padding-0);
+    padding-top: var(--padding-31xl);
+    padding-bottom: var(--padding-0);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .createRealLoyaltyAndBoost,
+  .realBusinessesReal,
+  .withSamparkaLoyaltyContainer {
+    font-size: var(--font-size-6xl);
+  }
+  .desktopHeroImage {
+    display: none;
+    height: 470px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .realBusinessesReal {
+    font-size: var(--font-size-smi);
+    line-height: 22px;
+  }
+  .createRealLoyaltyAndBoost {
+    font-size: var(--font-size-3xl);
+    line-height: 25px;
+  }
+  .withSamparkaLoyaltyContainer {
+    font-size: var(--font-size-smi);
+    line-height: 22px;
+  }
+  .samparka202 {
+    width: 336px;
+  height: 155px;
+  object-fit: fill;
+  }
+  .desktopHeroImage {
+    display: flex;
+    width: auto;
+    align-self: unset;
+    height: 250px;
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .trust {
+    gap: var(--gap-6xl);
+    padding: var(--padding-51xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  
+}
+@media screen and (max-width: 350px) {
+  .createRealLoyaltyAndBoost,
+  .realBusinessesReal {
+    font-size: var(--font-size-mini);
+  }
+  .withSamparkaLoyaltyContainer {
+    font-size: var(--font-size-smi);
+  }
+  .trust {
+    gap: var(--gap-mini);
+  }
+}

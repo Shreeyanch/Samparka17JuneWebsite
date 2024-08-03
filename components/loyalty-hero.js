@@ -67,7 +67,7 @@ const LoyaltyHero = ({ className = "" }) => {
             src="/group-1000003524@2x.png"
           />
         </div>
-        <div className={styles.companymobile}>
+        {/* <div className={styles.companymobile}>
           <div className={styles.logo}>
             <img className={styles.icon} alt="" src="/1@2x.png" />
             <img className={styles.icon1} alt="" src="/2@2x.png" />
@@ -75,7 +75,7 @@ const LoyaltyHero = ({ className = "" }) => {
             <img className={styles.icon3} alt="" src="/6@2x.png" />
             <img className={styles.icon4} alt="" src="/5@2x.png" />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.desktopHeroImage}>
         <img
@@ -84,7 +84,7 @@ const LoyaltyHero = ({ className = "" }) => {
           src="/group-1000003524@2x.png"
         />
       </div>
-      <div className={styles.companydesktoployalty}>
+      {/* <div className={styles.companydesktoployalty}>
         <div className={styles.logo1}>
           <img className={styles.icon5} alt="" src="/7@2x.png" />
           <img className={styles.icon6} alt="" src="/2@2x.png" />
@@ -93,7 +93,7 @@ const LoyaltyHero = ({ className = "" }) => {
           <img className={styles.icon9} alt="" src="/11@2x.png" />
           <img className={styles.icon10} alt="" src="/5@2x.png" />
         </div>
-      </div>
+      </div> */}
     </div>
     {isVideoPopupOpen && (
       <PortalPopup

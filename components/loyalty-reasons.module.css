@@ -820,7 +820,7 @@
   }
   .loyaltyreasons {
     gap: var(--gap-51xl);
-    padding: var(--padding-88xl) var(--padding-xl) var(--padding-31xl);
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-31xl);
     box-sizing: border-box;
   }
 }

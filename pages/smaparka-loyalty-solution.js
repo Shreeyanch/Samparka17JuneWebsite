@@ -6,6 +6,13 @@ import LoyaltyReasons from "../components/loyalty-reasons";
 import With1 from "../components/with1";
 import With from "../components/with";
 import Footer from "../components/footer";
+import LoyaltyHeroo from "../components/loyalty-heroo";
+import  Whyloyalty from "../components/whyloyalty";
+import HowItWorks from "../components/how-it-works";
+
+
+
+
 import styles from "./smaparka-loyalty-solution.module.css";
 
 const SmaparkaLoyaltySolution = () => {
@@ -21,7 +28,10 @@ const SmaparkaLoyaltySolution = () => {
       <img className={styles.frameIcon} alt="" src="/frame.svg" />
       <Header onHomeTextClick={onHomeTextClick} />
       <LoyaltyHero />
+      <LoyaltyHeroo/>
+      <Whyloyalty/>
       <LoyaltyWhy />
+      <HowItWorks/>
       <LoyaltyReasons />
       <div className={styles.loyaltypricing}>
         <div className={styles.discoverAHassleFree}>

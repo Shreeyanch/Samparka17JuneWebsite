@@ -21,7 +21,7 @@ const LoyaltyWhy = ({ className = "" }) => {
           vector3="/vector2.svg"
           noAccessToRealTimeAnalyti="No access to real-time analytics."
           vector4="/vector2.svg"
-          noSmartQRCodesForEasyMemb="No smart QR codes for easy membership and point tracking."
+          noSmartQRCodesForEasyMemb="No smart QR/NFC for easy membership and point tracking."
         />
         <WithOut
           iconEmotionHappy="/-icon-emotion-happy1.svg"
@@ -35,7 +35,7 @@ const LoyaltyWhy = ({ className = "" }) => {
           vector3="/vector3.svg"
           noAccessToRealTimeAnalyti="Get real-time analytics."
           vector4="/vector3.svg"
-          noSmartQRCodesForEasyMemb="Use smart QR codes for instant membership creation and point tracking."
+          noSmartQRCodesForEasyMemb="Use smart QR/NFC for instant membership creation and point tracking."
           propBackgroundColor="rgba(131, 176, 132, 0.21)"
           propWidth="28px"
           propHeight="20.3px"
