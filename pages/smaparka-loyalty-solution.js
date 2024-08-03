@@ -28,7 +28,7 @@ const SmaparkaLoyaltySolution = () => {
       <img className={styles.frameIcon} alt="" src="/frame.svg" />
       <Header onHomeTextClick={onHomeTextClick} />
       <LoyaltyHero />
-      {/* <LoyaltyHeroo/> */}
+      <LoyaltyHeroo/>
       {/* <Whyloyalty/> */}
       <LoyaltyWhy />
       {/* <HowItWorks/> */}
