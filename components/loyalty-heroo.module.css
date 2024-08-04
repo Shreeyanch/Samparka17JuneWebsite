@@ -193,7 +193,7 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
   .contactlessElegantInnovati {
     font-size: 10px; /* var(--font-size-3xs) */
     line-height: 16px;

@@ -29,9 +29,9 @@ const SmaparkaLoyaltySolution = () => {
       <Header onHomeTextClick={onHomeTextClick} />
       <LoyaltyHero />
       <LoyaltyHeroo/>
-      {/* <Whyloyalty/> */}
+      <Whyloyalty/>
       <LoyaltyWhy />
-      {/* <HowItWorks/> */}
+      <HowItWorks/>
       <LoyaltyReasons />
       <div className={styles.loyaltypricing}>
         <div className={styles.discoverAHassleFree}>

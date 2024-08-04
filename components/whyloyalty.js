@@ -41,7 +41,7 @@ const Whyloyalty = ({ className = "" }) => {
       <div className={styles.benefitsframe}>
         <div className={styles.benefitone}>
           <img className={styles.image34Icon} alt="" src="/why1.png" />
-          <div className={styles.description}>
+          <div className={styles.description1}>
             Keeps your customers coming back
           </div>
         </div>

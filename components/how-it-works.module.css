@@ -113,7 +113,7 @@
     height: 470px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   .realBusinessesReal {
     font-size: var(--font-size-smi);
     line-height: 22px;
@@ -127,8 +127,8 @@
     line-height: 22px;
   }
   .samparka202 {
-    width: 336px;
-  height: 155px;
+    width: 396px;
+  height: 175px;
   object-fit: fill;
   }
   .desktopHeroImage {
