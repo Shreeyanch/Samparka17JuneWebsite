@@ -2,7 +2,7 @@
 .mobileTitleIcon {
   width: 775px;
   position: relative;
-  height: 220px;
+  height: 260px;
   object-fit: cover;
 }
 .mobileTitleIcon {
@@ -406,7 +406,7 @@
   }
   .mobileTitleIcon {
     display: flex;
-    height: 113px;
+    height: 133px;
   }
   .nepalsTopDigitalContainer {
     font-size: var(--font-size-3xs);

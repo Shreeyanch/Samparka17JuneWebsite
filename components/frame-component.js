@@ -20,7 +20,7 @@ const FrameComponent = ({
       <div className={styles.smallbiz}>{smallBiz}</div>
       <div className={styles.forSmallBusinesses}>{forSmallBusinesses}</div>
       <div className={styles.npr1599mo}>{nPR1599mo}</div>
-      <div className={styles.yearlyBilling}>Yearly Billing</div>
+      {/* <div className={styles.yearlyBilling}>Yearly Billing</div> */}
       <div className={styles.group} onClick={onGroupContainerClick}>
         <div className={styles.rectangle} />
         <div className={styles.getStarted}>Get Started</div>

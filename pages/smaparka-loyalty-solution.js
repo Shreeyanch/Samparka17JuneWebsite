@@ -96,6 +96,7 @@ import Footer from "../components/footer";
 import LoyaltyHeroo from "../components/loyalty-heroo";
 import Whyloyalty from "../components/whyloyalty";
 import HowItWorks from "../components/how-it-works";
+// import StoreDescription from "../components/StoreDescription";
 
 import styles from "./smaparka-loyalty-solution.module.css";
 
@@ -113,11 +114,12 @@ const SmaparkaLoyaltySolution = () => {
       <Header onHomeTextClick={onHomeTextClick} />
       <LoyaltyHero />
       <LoyaltyHeroo />
+      {/* <StoreDescription/> */}
+
       <Whyloyalty />
       <LoyaltyWhy />
       <HowItWorks />
 
-      {/* Smart Business Card Section */}
 
 
       <LoyaltyReasons />

@@ -55,7 +55,19 @@ const With = ({ className = "" }) => {
       <div className={styles.points}>
         <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
         <div className={styles.cloudBasedMobileRewards}>
-          Safe Mode Technology
+          Add Online Store
+        </div>
+      </div>
+      <div className={styles.points}>
+        <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
+        <div className={styles.cloudBasedMobileRewards}>
+          Reservation / PreBooking Feature
+        </div>
+      </div>
+      <div className={styles.points}>
+        <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
+        <div className={styles.cloudBasedMobileRewards}>
+          Abuse-free Safe Mode
         </div>
       </div>
       <div className={styles.points}>

@@ -10,8 +10,8 @@
 .whyLoyalty {
   align-self: stretch;
   position: relative;
-  line-height: 22px;
-  font-weight: 600;
+  line-height: 32px;
+  font-weight: 400;
 }
 
 .image34Icon {
@@ -115,7 +115,7 @@
     gap: 10px; /* var(--gap-3xs) */
   }
   .benefitsreview {
-    padding: 50px; 
+    padding: 25px; 
     font-size: 30px; 
     box-sizing: border-box;
   }

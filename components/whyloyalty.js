@@ -37,7 +37,7 @@ const Whyloyalty = ({ className = "" }) => {
       className={[styles.benefitsreview, className].join(" ")}
       data-animate-on-scroll
     >
-      <div className={styles.whyLoyalty}>Why Loyalty?</div>
+      <div className={styles.whyLoyalty}>Why Samparka Works For Your Business</div>
       <div className={styles.benefitsframe}>
         <div className={styles.benefitone}>
           <img className={styles.image34Icon} alt="" src="/why1.png" />
