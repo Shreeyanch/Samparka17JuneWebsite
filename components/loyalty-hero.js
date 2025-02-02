@@ -34,7 +34,7 @@ const LoyaltyHero = ({ className = "" }) => {
         <img
           className={styles.mobileTitleIcon}
           alt=""
-          src="/mobile-title@2x.png"
+          src="/DesktopTitleLoyalty.png"
         />
         <div className={styles.nepalsTopDigitalContainer}>
           <b>Nepal's</b>

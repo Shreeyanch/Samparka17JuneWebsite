@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import Footer from "../components/footer";
 import styles from "./smart-business-card.module.css";
 
+
 const SmartBusinessCard = () => {
   const router = useRouter();
   useEffect(() => {
