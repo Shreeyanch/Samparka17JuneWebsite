@@ -81,7 +81,7 @@
 }
 .mobileobjective1mobile {
   width: 1112px;
-  border-radius: var(--br-11xl);
+  border-radius: var(--br-5xs);
   border: 1px solid var(--color-mistyrose);
   box-sizing: border-box;
   display: none;
@@ -90,6 +90,7 @@
   justify-content: center;
   gap: var(--gap-75xl);
   font-size: var(--font-size-11xl);
+  padding: var(--padding-3xs) var(--padding-mini);
 }
 .ecGiftCardGroup {
   align-self: stretch;
@@ -528,7 +529,7 @@
 }
 .mobileObjective2mobile {
   width: 1112px;
-  border-radius: var(--br-11xl);
+  border-radius: var(--br-5xs);
   border: 1px solid var(--color-mistyrose);
   box-sizing: border-box;
   display: none;
@@ -536,7 +537,10 @@
   align-items: center;
   justify-content: center;
   gap: var(--gap-75xl);
+  font-size: var(--font-size-11xl);
+  
 }
+
 .icon,
 .startupIcon {
   width: 429px;
@@ -759,6 +763,7 @@
     padding-right: 0;
     box-sizing: border-box;
   }
+  
   .withChild {
     width: 254px;
     height: 241px;

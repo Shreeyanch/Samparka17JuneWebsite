@@ -1,9 +1,9 @@
 import { useCallback } from "react";
 import { useRouter } from "next/router";
 import PropTypes from "prop-types";
-import styles from "./review.module.css";
+import styles from "./Reservation.module.css";
 
-const Review = ({ className = "" }) => {
+const Reservation = ({ className = "" }) => {
   const router = useRouter();
 
   const onFrameContainerClick = useCallback(() => {
@@ -12,19 +12,18 @@ const Review = ({ className = "" }) => {
 
   return (
     <div className={[styles.review2, className].join(" ")}>
-      
-      <img className={styles.image3Icon} alt="" src="/image-21@2x.png" />
       <div className={styles.directReviewParent}>
-        <div className={styles.directReview}>2.Direct review</div>
+        <div className={styles.directReview}>Seamless Reservations</div>
         <div className={styles.optimizeReviews45}>
-          Optimize reviews by directly opening review page where customers can provide 1 5 star, according to their experience.
+        Easily book your table, haircut, or other services in advance with Samparka. Enjoy a hassle-free experience and secure your spot effortlessly.
         </div>
         <div className={styles.contactlessSvgrepoCom1}>
-          <div className={styles.layer2Parent}>
-            <img className={styles.layer2Icon} alt="" src="/layer-2@2x.png" />
+
             <img className={styles.groupIcon} alt="" src="/group.svg" />
-          </div>
-          <div className={styles.nfcqrEnabled}>Nfc/Qr Enabled</div>
+            <div className={styles.nfcqrEnabled}> Customizable Booking Options</div>
+          <div className={styles.nfcqrEnabled}>  Real-Time Availability</div>
+          <div className={styles.nfcqrEnabled}> Automated Reminders</div>
+
         </div>
         <div className={styles.contactlessSvgrepoCom1}>
           <img
@@ -38,12 +37,15 @@ const Review = ({ className = "" }) => {
           <div className={styles.orderNow}>Order Now</div>
         </div>
       </div>
+      
+      <img className={styles.image3Icon} alt="" src="/image-21@2x.png" />
+      
     </div>
   );
 };
 
-Review.propTypes = {
+Reservation.propTypes = {
   className: PropTypes.string,
 };
 
-export default Review;
+export default Reservation;
